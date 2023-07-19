@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ability" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAIAACBAAAAAAAAAAAAAgAAAAEIACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AbilitySystem\Ability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbilityHolder" Collapsed="true">
+    <Position X="2.25" Y="9" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="AbilityHolder.AbilityState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\AbilitySystem\AbilityHolder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAAAAAAAIECACAAAAAAAAAAAAAAEAAAEA=</HashCode>
+      <FileName>Assets\Scripts\AbilitySystem\AbilityHolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DashAbility" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAABAAAAAAAAAAAAAgAAigEBAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AbilitySystem\DashAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChargeAbility" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAQAAABAEAIAAAAAAAAAAAAIQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AbilitySystem\EnemySkills\ChargeAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrushAbility" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAQAAAABAEAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AbilitySystem\EnemySkills\CrushAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyAbility" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="EnemyAbility.AbilityState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\AbilitySystem\EnemySkills\EnemyAbility.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAAAADAAkIAECJgAAAIAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AbilitySystem\EnemySkills\EnemyAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShootAbility" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAABABAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AbilitySystem\EnemySkills\ShootAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AttackRadius" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="AttackRadius.AttackEvent">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\AttackRadius.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAEAJAACAgAACBEAAAAAAICAABCAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\AttackRadius.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQABAAEAAAAAAEAEIAAAARAAAAAIARAAgACAACEA=</HashCode>
+      <FileName>Assets\Scripts\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletHitFX" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAADAAgAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BulletHitFX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BurstSpawnArea" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgIQEBAaAACIAiAAEAAAAAAEACgAAEaCAIAgAAAEA=</HashCode>
+      <FileName>Assets\Scripts\BurstSpawnArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AttackScriptableObject" Collapsed="true">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAIACAABAAACAEAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\AttackScriptableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damager" Collapsed="true">
+    <Position X="4" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABABCAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\Damager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kKQAAAIAYCEABgCEDAFECwCEgQAACBEaKDcAgASAAEg=</HashCode>
+      <FileName>Assets\Scripts\Enemies\Enemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EnemyLineOfSightChecker" Collapsed="true">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAAQAgAEAAQAAAAgAAAAAYAAAAIAASAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemyLineOfSightChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyMovement" Collapsed="true">
+    <Position X="7.5" Y="10" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="EnemyMovement.StateChangeEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Enemies\EnemyMovement.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gIgBEAAAgAIAhgAAIAEISAAAACABCAAIIAAwhARASEE=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemyMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyScriptableObject" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAAAAAAACAEAAAAAwAAAABADDAIAAWBAEwEQAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemyScriptableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemySpawner" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="EnemySpawner.SpawnMethod" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Enemies\EnemySpawner.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAACAQAICAACIIAAAQADAAAAAAAgIABCCAgACAQAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExplosionTrapEnemy" Collapsed="true">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAAAAgAAiAEAAAAAIEgAAACAAAAAAAAIQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\ExplosionTrapEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FireTrapEnemy" Collapsed="true">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAgAAAAAAAEaAAAAIAgACgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\FireTrapEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StationaryEnemy" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAAgAAAAAAASAAAAAGAAAEIKAACAAAAEEA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\StationaryEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrapDamager" Collapsed="true">
+    <Position X="7.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAARAACAIABAAAABAAAAAAAAAAAAAQAAAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\TrapDamager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TurretEnemy" Collapsed="true">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAQAEggAAAAABAEgAAQACAAAEAAAQCgAAEAAg=</HashCode>
+      <FileName>Assets\Scripts\Enemies\TurretEnemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ArenaGate" Collapsed="true">
+    <Position X="4" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCBgAAAAAAAAAAAAAACAAAAAIAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Environment\ArenaGate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager" Collapsed="true">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EESggCEABACAAAAAAAAIBICwEAAAAYAAAAEgAAEABEA=</HashCode>
+      <FileName>Assets\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Healthbar" Collapsed="true">
+    <Position X="5.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAIAAAAAAAAAAAAABAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HealthSystem\Healthbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthFollowCamera" Collapsed="true">
+    <Position X="7.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HealthSystem\HealthFollowCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthPack" Collapsed="true">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABAAAICAAAAAACAAAAAAABAAAAAEAYAAQAIAAAEA=</HashCode>
+      <FileName>Assets\Scripts\HealthSystem\HealthPack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitHealth" Collapsed="true">
+    <Position X="0.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAACAAAAAAAABAAAAAAAAAAAAAggAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HealthSystem\UnitHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoDestroyPoolableObject" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAgAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\ObjectPool\AutoDestroyPoolableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectPool" Collapsed="true">
+    <Position X="2.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABAAAAAAAIAAAAICAAAAQAAAAAgAAAAAEEACAAAA=</HashCode>
+      <FileName>Assets\Scripts\ObjectPool\ObjectPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoolableObject" Collapsed="true">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ObjectPool\PoolableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AttackCollision" Collapsed="true">
+    <Position X="5.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAEAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\AttackCollision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerCombat" Collapsed="true">
+    <Position X="4" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQSGAAAQAEACAAAACICIAAAABAgAAAAAIBACAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerCombat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQEHElAICYCAwAFAAhJiIwBAIAAAgMIYAIAoICACcM=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.214" Collapsed="true" />
+  </Class>
+  <Class Name="@PlayerInputs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgCDAACAAABAAAhAACBABAAAAAGAEAAAgAABQBAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerInputs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RangedAttackRadius" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAABACAAAAAAAAAIAAAAAABAAAKAAAACAAAgA=</HashCode>
+      <FileName>Assets\Scripts\RangedAttackRadius.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IDamageable" Collapsed="true">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\IDamageable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="EnemyState" Collapsed="true">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAABAAAAAAAAAAAAAIAAAAgAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemyState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
